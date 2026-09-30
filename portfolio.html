@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mohammed Jabir | Technical Support Engineer</title>
+  <title>Mohammed Jabir | Technical Product Support Engineer</title>
+  <meta name="description" content="Mohammed Jabir — Technical Product Support Engineer at Katalon with 3+ years across product support and test automation. Bengaluru, India." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -439,6 +440,7 @@
 
     .hero-stats {
       display: flex;
+      flex-wrap: wrap;
       gap: 3rem;
       margin-top: 5rem;
       padding-top: 2.5rem;
@@ -637,6 +639,13 @@
     }
     .proj-card:hover .tech-chip { border-color: rgba(74,222,128,0.15); color: rgba(74,222,128,0.7); background: rgba(74,222,128,0.04); }
 
+    /* ─── PUBLICATIONS ─── */
+    a.proj-card { text-decoration: none; color: inherit; }
+    a.proj-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .pub-meta { font-size: 0.75rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
+    .pub-read { font-size: 0.85rem; font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; gap: 0.4rem; }
+    a.proj-card:hover .pub-read { text-decoration: underline; }
+
     /* ─── EDUCATION ─── */
     #education { background: var(--bg-2); }
     .edu-cert-grid { display: grid; grid-template-columns: 5fr 4fr; gap: 2.5rem; align-items: start; }
@@ -750,6 +759,7 @@
     <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#publications">Articles</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -769,7 +779,7 @@
         <span class="name-line"><span class="name-inner">Jabir</span></span>
       </h1>
       <p class="hero-role">
-        <strong>Technical Support Engineer</strong> &nbsp;·&nbsp; Bengaluru, India
+        <strong>Technical Product Support Engineer</strong> &nbsp;·&nbsp; Bengaluru, India
       </p>
       <p class="hero-desc">
         I bridge the gap between customer problems and engineering solutions —
@@ -785,7 +795,7 @@
       </div>
       <div class="hero-stats">
         <div class="stat">
-          <div class="stat-num" data-count="2" data-suffix="+">0</div>
+          <div class="stat-num" data-count="3" data-suffix="+">0</div>
           <div class="stat-label">Years Experience</div>
         </div>
         <div class="stat">
@@ -795,6 +805,10 @@
         <div class="stat">
           <div class="stat-num" data-count="3">0</div>
           <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="3">0</div>
+          <div class="stat-label">Articles Published</div>
         </div>
         <div class="stat">
           <div class="stat-num" data-count="7.93" data-decimals="2">0</div>
@@ -814,7 +828,7 @@
     <div class="about-grid">
       <div class="about-text fade-in">
         <p>
-          I'm a <strong>Technical Support Engineer</strong> based in Bengaluru with a passion for
+          I'm a <strong>Technical Product Support Engineer</strong> based in Bengaluru with 3+ years of experience, with a passion for
           solving problems at the intersection of software, infrastructure, and people.
           With a background spanning QA automation, backend development, and product support,
           I bring a well-rounded perspective to diagnosing and resolving complex technical challenges.
@@ -823,7 +837,7 @@
           Currently at <strong>Katalon, Inc</strong>, I work on triaging and resolving issues across
           automation testing frameworks, cloud platforms (Azure, AWS), and enterprise applications —
           often during critical on-call shifts supporting US-hour deployments. I collaborate closely
-          with Product and Engineering teams to identify root causes and drive lasting fixes.
+          with Product and Engineering teams to identify root causes and drive lasting fixes. I also mentor junior teammates and write public guides for the Katalon Community through the KShare series.
         </p>
         <p>
           I believe great support isn't just about fixing bugs — it's about understanding
@@ -874,8 +888,7 @@
         <div class="card-spotlight"></div>
         <div class="skill-cat">Cloud Platforms</div>
         <div class="tag-row">
-          <span class="tag hi">Google Cloud (GCP)</span>
-          <span class="tag hi">Microsoft Azure</span>
+          <span class="tag hi">Azure</span>
           <span class="tag">AWS (Basic)</span>
           <span class="tag">SaaS Platforms</span>
         </div>
@@ -884,6 +897,10 @@
         <div class="card-spotlight"></div>
         <div class="skill-cat">Automation & Testing</div>
         <div class="tag-row">
+          <span class="tag hi">Katalon Studio</span>
+          <span class="tag hi">Katalon TestOps</span>
+          <span class="tag">StudioAssist</span>
+          <span class="tag">Web Recorder Plus</span>
           <span class="tag hi">Selenium WebDriver</span>
           <span class="tag hi">Pytest</span>
           <span class="tag">CI/CD</span>
@@ -906,7 +923,6 @@
         <div class="skill-cat">Databases</div>
         <div class="tag-row">
           <span class="tag hi">MySQL</span>
-          <span class="tag hi">PostgreSQL</span>
           <span class="tag">Database Design</span>
           <span class="tag">Query Optimization</span>
         </div>
@@ -915,7 +931,7 @@
         <div class="card-spotlight"></div>
         <div class="skill-cat">Tools & Platforms</div>
         <div class="tag-row">
-          <span class="tag hi">GitHub</span>
+          <span class="tag hi">Git &amp; GitHub</span>
           <span class="tag hi">Atlassian Jira</span>
           <span class="tag">Linux</span>
           <span class="tag">Windows</span>
@@ -947,7 +963,7 @@
   <div class="container">
     <div class="section-eyebrow">Professional Experience</div>
     <div class="section-title"><span class="title-reveal">Work History</span></div>
-    <div class="section-sub">2+ years across product support, QA automation, and backend development.</div>
+    <div class="section-sub">3+ years across product support, QA automation, and backend development.</div>
     <div class="timeline" id="exp-timeline">
       <div class="tl-item fade-in">
         <div class="tl-dot active"></div>
@@ -959,15 +975,18 @@
           <li>Triage technical issues by assessing priority and impact, implementing strategic resolutions for automation frameworks, APIs, web/mobile applications, and desktop platforms</li>
           <li>Read and analyze code to identify bugs, understand system behavior, and provide technical recommendations to both customers and engineering teams</li>
           <li>Collaborate cross-functionally with Product, Engineering, and Customer Success to resolve stakeholder blockers and drive complex issues to resolution</li>
+          <li>Engage customers over email and chat, and conduct live debugging meetings to understand, reproduce, and resolve their issues</li>
           <li>Work rotating on-call shifts supporting critical deployments during US hours (5 PM–2 AM IST), ensuring 24/7 service continuity and rapid escalation response</li>
           <li>Conduct root cause analysis through log analysis and system debugging, identifying recurring issues and working with engineering to prevent recurrence</li>
-          <li>Trained and onboarded new team members; developed internal documentation and knowledge base articles to improve team readiness and efficiency</li>
+          <li>Successfully trained and mentored a junior support engineer, guiding them through product knowledge, troubleshooting workflows, and customer handling</li>
+          <li>Onboarded new team members and authored internal documentation and knowledge base articles that improved team readiness and resolution efficiency</li>
+          <li>Wrote and published public technical guides on the Katalon Community Forum (KShare series) covering Jira/Xray integration with TestOps, StudioAssist, and Web Recorder Plus</li>
         </ul>
       </div>
       <div class="tl-item fade-in">
         <div class="tl-dot past"></div>
         <div class="tl-head"><span class="tl-company">EduBild Technologies LLP</span><span class="tl-date">Aug 2023 — Jun 2024</span></div>
-        <div class="tl-role">Jr. Software Tester</div>
+        <div class="tl-role">Junior Software Tester</div>
         <div class="tl-loc">📍 Bengaluru, Karnataka, India</div>
         <ul class="tl-points">
           <li>Managed design, development, and maintenance of automated testing frameworks using Python, Selenium WebDriver, and Pytest</li>
@@ -1018,6 +1037,41 @@
         <div class="proj-desc">Web-based quiz platform featuring user authentication and role-based access control. Built on a Java backend with MySQL for data persistence, with iterative enhancements and performance optimization over time.</div>
         <div class="proj-tech"><span class="tech-chip">Java</span><span class="tech-chip">MySQL</span><span class="tech-chip">HTML</span><span class="tech-chip">CSS</span></div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PUBLICATIONS ═══ -->
+<section id="publications" class="section-relative">
+  <div class="container">
+    <div class="section-eyebrow">Publications</div>
+    <div class="section-title"><span class="title-reveal">Articles I've Written</span></div>
+    <div class="section-sub">Technical guides I wrote and published for the Katalon Community as part of the KShare series.</div>
+    <div class="projects-grid">
+      <a class="proj-card fade-in" href="https://forum.katalon.com/t/kshare-how-to-integrate-jira-and-xray-with-katalon-testops/153914" target="_blank" rel="noopener">
+        <div class="proj-icon">🔗</div>
+        <div class="pub-meta">Katalon Community · KShare</div>
+        <div class="proj-name">How to Integrate Jira and Xray with Katalon TestOps</div>
+        <div class="proj-desc">Step-by-step guide to connecting Jira and Xray with Katalon TestOps, from enabling the integration and generating API credentials to mapping Xray issue types for test management and traceability.</div>
+        <div class="proj-tech"><span class="tech-chip">TestOps</span><span class="tech-chip">Jira</span><span class="tech-chip">Xray</span></div>
+        <span class="pub-read">Read article ↗</span>
+      </a>
+      <a class="proj-card fade-in" href="https://forum.katalon.com/t/kshare-how-katalons-studioassist-enhances-your-testing-workflow/164277" target="_blank" rel="noopener" style="transition-delay:0.1s;">
+        <div class="proj-icon">🤖</div>
+        <div class="pub-meta">Katalon Community · KShare</div>
+        <div class="proj-name">How Katalon's StudioAssist Enhances Your Testing Workflow</div>
+        <div class="proj-desc">An overview of using StudioAssist, Katalon's AI assistant, to speed up test creation and scripting inside Katalon Studio.</div>
+        <div class="proj-tech"><span class="tech-chip">Katalon Studio</span><span class="tech-chip">StudioAssist</span><span class="tech-chip">AI</span></div>
+        <span class="pub-read">Read article ↗</span>
+      </a>
+      <a class="proj-card fade-in" href="https://forum.katalon.com/t/kshare-katalon-web-recorder-plus-walkthrough-beta/166574" target="_blank" rel="noopener" style="transition-delay:0.2s;">
+        <div class="proj-icon">🎥</div>
+        <div class="pub-meta">Katalon Community · KShare</div>
+        <div class="proj-name">Katalon Web Recorder Plus Walkthrough (Beta)</div>
+        <div class="proj-desc">A hands-on walkthrough of recording and building web tests with Katalon's Web Recorder Plus.</div>
+        <div class="proj-tech"><span class="tech-chip">Web Recorder Plus</span><span class="tech-chip">Web Testing</span></div>
+        <span class="pub-read">Read article ↗</span>
+      </a>
     </div>
   </div>
 </section>
@@ -1081,10 +1135,11 @@
 <!-- ═══ FOOTER ═══ -->
 <footer>
   <div class="footer-dots"><span></span><span></span><span></span></div>
-  <p>Built by <span>Mohammed Jabir</span> &nbsp;·&nbsp; Bengaluru, India &nbsp;·&nbsp; 2025</p>
+  <p>Built by <span>Mohammed Jabir</span> &nbsp;·&nbsp; Bengaluru, India &nbsp;·&nbsp; <span id="year">2026</span></p>
 </footer>
 
 <script>
+document.getElementById("year").textContent = new Date().getFullYear();
 /* 1. CUSTOM CURSOR */
 const dot = document.getElementById('cursor-dot');
 const ring = document.getElementById('cursor-ring');
